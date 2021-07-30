@@ -1,0 +1,29 @@
+{
+  "name": "Wake Up!!!",
+  "author": "FierceJDM",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Wake Up!!!",
+    "uuid": "6fa95acb-23c3-4e55-b147-03e0a1583256",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": {
+      "dummy":0
+    },
+    "resources": {
+      "media": []
+    }
+  }
+}

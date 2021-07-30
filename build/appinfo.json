@@ -1,0 +1,30 @@
+{
+    "targetPlatforms": [
+        "aplite", 
+        "basalt", 
+        "chalk", 
+        "diorite"
+    ], 
+    "displayName": "Wake Up!!!", 
+    "name": "Wake Up!!!", 
+    "messageKeys": {
+        "dummy": 0
+    }, 
+    "companyName": "FierceJDM", 
+    "enableMultiJS": true, 
+    "versionLabel": "1.0", 
+    "capabilities": [], 
+    "sdkVersion": "3", 
+    "appKeys": {
+        "dummy": 0
+    }, 
+    "longName": "Wake Up!!!", 
+    "shortName": "Wake Up!!!", 
+    "watchapp": {
+        "watchface": false
+    }, 
+    "resources": {
+        "media": []
+    }, 
+    "uuid": "6fa95acb-23c3-4e55-b147-03e0a1583256"
+}
