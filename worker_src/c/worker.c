@@ -14,6 +14,7 @@ static void tick_handler(struct tm *tick_time, TimeUnits changed) {
     if (strcmp(setUnPlugged, "0")==0) {
       persist_write_int(1, 0);
     }
+    worker_launch_app();
     message.data0 = 1;
     persist_write_int(0, 1);
     app_worker_send_message(SOURCE_BACKGROUND, &message);
